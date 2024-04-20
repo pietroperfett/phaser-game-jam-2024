@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+    <title>TC Story</title>
+    <link rel="stylesheet" href="src/css/team_style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo_div">
+            <img src="assets/menu.png" id="menu">
+            <img src="assets/no.png" id="logo">
+        </div>
+    </header>
+    <div id="menu_div">
+        <button class="menu_button"  onclick="location.href='index.html'" >Home</button>
+        <button class="menu_button" onclick=openTEAM() >Scopri il team</button>
+        <button class="menu_button">Git Hub</button>
+        <button class="menu_button" onclick=openCARAFA()>IIS Carafa giustiniani</button>
+        <button class="menu_button" onclick=openMARGHERITA() >IIS Margherita Hack</button>  
+       <button class="menu_button" onclick=openDOCUMENTAZIONE() >Documentazione</button> 
+    </div>
+    <div id="container">
+        <h1 id="title">Chi siamo</h1>
+            <div class="text">
+                <img src="assets/team_front.png" id="photo">
+                Siamo cinque studenti del terzo anno dell'ISS Carafa Giustiniani di Cerreto Sannita. Appassionati di tecnologia e design, abbiamo unito le nostre forze per fondare 'Turing Coder', un gioco creato con TypeScript e Phaser. Attraverso questo progetto, esploriamo il mondo della programmazione e del design grafico, mettendo in pratica quanto apprendiamo a scuola e divertendoci nel processo.
+                <br>
+                <br>
+                I nostri programmatori e grafici: <br>
+                <br>
+                Pietro (Programmatore) <br>
+                Sebastiano (Programmatore) <br>
+                Raffaele (Grafico/Programmatore) <br>
+                Alessandro (Programmatore/Copywriter) <br>
+                Paolo (Grafico) <br>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <img src="/assets/logo_carafa.png" class="logo_crediti" onclick=openCARAFA()>
+    </footer>
+
+    <script src="src/script.js"></script>
+
+</body>
+</html>

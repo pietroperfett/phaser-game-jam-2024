@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <title>Turing Coder Home</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo_div">
+            <img src="assets/menu.png" id="menu">
+            <img src="assets/no.png" id="logo">
+        </div>
+    </header>
+    
+    <div id="menu_div">
+        <button class="menu_button" onclick=openTEAM() >Scopri il team!</button>
+        <button class="menu_button" onclick=openSTORY() >Story</button>
+        <button class="menu_button">Git Hub</button>
+        <button class="menu_button" onclick=openCARAFA()>IIS Carafa giustiniani</button>
+        <button class="menu_button" onclick=openMARGHERITA() >IIS Margherita Hack</button>  
+       <button class="menu_button" onclick=openDOCUMENTAZIONE() >Documentazione</button>  
+    </div>
+    <div id="game_container">
+        <div id="game_div">
+            <script src="build/project.bundle.js" charset="utf-8" id="script_game"></script>
+        </div>
+    </div>
+    <div style="font-family:ThaleahFat; position:absolute; left:-1000px; visibility:hidden;">.</div>
+    
+    <footer>
+        <img src="/assets/logo_carafa.png" class="logo_crediti" onclick=openCARAFA()>
+    </footer>
+    <script src="/src/script.js"></script> <!--menu drop down-->
+</body>
+
+
+</html>
