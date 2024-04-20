@@ -17,6 +17,7 @@ Run next commands in your terminal:
 | `use brave` | Use brave for better use |
 
 
-Credits
-
+Credits:
 Authors: Pietroperfett, Sebastiano, Raffaele
+
+
