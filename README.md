@@ -1,6 +1,6 @@
-# Phaser 3 Webpack Project Template
+# Phaser Game Jam - "Enigma"
 
-A Phaser 3 Project Template
+Is a game inspired by the life of Alan Turing, it was made for the “Phaser Game Jam”: Hackathon dedicated to the creation of video games organized by the IIS “Margherita Hack” of Baronissi (SA). It was created using the Phaser Js library of javascript that allows you to create html games, controlling physics and collisions.
 
 ### Requirements
 
